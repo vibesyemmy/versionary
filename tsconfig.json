@@ -3,11 +3,18 @@
     "target": "es6",
     "lib": ["es6", "dom"],
     "moduleResolution": "node",
-    "jsx": "react",
     "strict": true,
-    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
+    "jsx": "react",
+    "allowJs": true,
     "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  }
+    "sourceMap": true,
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

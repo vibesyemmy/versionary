@@ -8,7 +8,7 @@
   "networkAccess": {
     "allowedDomains": ["none"]
   },
-  "permissions": [],
+  "permissions": ["currentuser"],
   "capabilities": [],
   "menu": [
     {

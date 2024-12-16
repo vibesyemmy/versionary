@@ -8,7 +8,12 @@
     "dev": "webpack --mode=development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["figma", "plugin", "version-control", "design"],
+  "keywords": [
+    "figma",
+    "plugin",
+    "version-control",
+    "design"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -21,6 +26,7 @@
     "@types/react-dom": "^18.2.0",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
+    "react-dev-utils": "^12.0.1",
     "style-loader": "^3.3.3",
     "ts-loader": "^9.5.1",
     "typescript": "^5.2.2",
